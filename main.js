@@ -16,7 +16,7 @@
 
 // console.log("hasil:", temperatureInFahrenheit);
 
-//parameter dan argument
+// parameter dan argument
 // function convertCelsiusToFahrenheit (temperature) {
 // const result= 9 / 5* temperature + 32;
 // return result;
@@ -51,3 +51,32 @@
 
 // const message = generateGreetingWorldMessage();
 // console.log(message);
+
+// function multiply(a, b) {
+//   return a * b;
+// }
+// function calculate(operation, numA, numB) {
+//   return operation(numA, numB);
+// }
+// const result = calculate(multiply, 10, 5);
+// console.log(result);
+
+let temperatureInFahrenheit = null;
+
+// Deklarasi function dengan Regular Function
+const convertCelsiusToFahrenheitUsingRegularFunction = function (temperature) {
+  const result = (9 / 5) * temperature + 32;
+  return result;
+};
+
+temperatureInFahrenheit = convertCelsiusToFahrenheitUsingRegularFunction(90);
+console.log('Hasil konversi:', temperatureInFahrenheit);
+// Hasil ==> Hasil konversi: 194
+
+// Deklarasi Function dengan Arrow Function
+const convertCelsiusToFahrenheitUsingArrowFunction = (temperature) => (9 / 5) * temperature + 32;
+  
+
+temperatureInFahrenheit = convertCelsiusToFahrenheitUsingArrowFunction(90);
+console.log('Hasil konversi:', temperatureInFahrenheit);
+// Hasil ==> Hasil konversi: 194
