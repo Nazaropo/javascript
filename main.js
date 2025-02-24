@@ -61,22 +61,21 @@
 // const result = calculate(multiply, 10, 5);
 // console.log(result);
 
-let temperatureInFahrenheit = null;
 
-// Deklarasi function dengan Regular Function
-const convertCelsiusToFahrenheitUsingRegularFunction = function (temperature) {
-  const result = (9 / 5) * temperature + 32;
-  return result;
-};
+// let temperatureInFahrenheit = null;
 
-temperatureInFahrenheit = convertCelsiusToFahrenheitUsingRegularFunction(90);
-console.log('Hasil konversi:', temperatureInFahrenheit);
-// Hasil ==> Hasil konversi: 194
+// // Deklarasi function dengan Regular Function
+// const convertCelsiusToFahrenheitUsingRegularFunction = function (temperature) {
+//   const result = (9 / 5) * temperature + 32;
+//   return result;
+// };
 
-// Deklarasi Function dengan Arrow Function
-const convertCelsiusToFahrenheitUsingArrowFunction = (temperature) => (9 / 5) * temperature + 32;
+// temperatureInFahrenheit = convertCelsiusToFahrenheitUsingRegularFunction(90);
+// console.log('Hasil konversi:', temperatureInFahrenheit);
+
+// // Deklarasi Function dengn Arrow Function
+// const convertCelsiusToFahrenheitUsingArrowFunction = (temperature) => (9 / 5) * temperature + 32;
   
 
-temperatureInFahrenheit = convertCelsiusToFahrenheitUsingArrowFunction(90);
-console.log('Hasil konversi:', temperatureInFahrenheit);
-// Hasil ==> Hasil konversi: 194
+// temperatureInFahrenheit = convertCelsiusToFahrenheitUsingArrowFunction(90);
+// console.log('Hasil konversi:', temperatureInFahrenheit);
